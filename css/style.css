@@ -2905,6 +2905,10 @@ li {
   padding-bottom: 20px;
 }
 
+.footer-logo img{
+  width: 120px;
+}
+
 .footer-main .footer-top p {
   font-size: 15px;
   line-height: 26px;
