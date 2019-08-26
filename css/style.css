@@ -267,6 +267,16 @@ li {
   float: right;
 }
 
+.header-top .top-right h6{
+  padding: 14px 0px;
+  color: #334d5e;
+}
+
+.header-top .top-right .active h6{
+  font-size: 15px;
+  color: rgb(51, 122, 183);
+}
+
 @media (max-width: 767px) {
   .header-top .top-right {
     float: unset;
@@ -460,7 +470,7 @@ li {
 
 .navbar {
   margin-bottom: 0;
-  background: #48bdc5;
+  background: #320001;
   border: none;
   border-radius: 0;
 }
@@ -1092,6 +1102,7 @@ li {
 
 .service-section {
   position: relative;
+  padding-top: 10px;
 }
 
 .service-section .section-title h3 {
@@ -1721,7 +1732,7 @@ li {
 .testimonial-section {
   position: relative;
   background-size: cover !important;
-  padding: 110px 0px;
+  padding: 20px 0px;
   background-repeat: no-repeat !important;
 }
 
@@ -2797,7 +2808,7 @@ li {
 
 .page-title {
   position: relative;
-  padding: 80px 0;
+  padding: 100px 0;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -3560,4 +3571,8 @@ li {
   .header-label{
     padding-top: 25px;
   }
+}
+
+.intro{
+  width: 50px;
 }
